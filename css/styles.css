@@ -1,0 +1,317 @@
+:root {
+  --accent-color: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.menu-link {
+  color: #2e2f42;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+/* ============================================HEADER======================================== */
+/* LOGO */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.logo-second-part {
+  color: #2e2f42;
+}
+/* NAVIGATION */
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.addres-link:hover {
+  color: var(--accent-color);
+}
+.menu-link:focus,
+.addres-link:focus {
+  color: var(--accent-color);
+}
+/* ADDRES */
+.addres-list {
+  font-style: normal;
+}
+.addres-link {
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding: 24px 0;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.menu-link {
+  padding: 24px 0;
+}
+.logo-container {
+  margin-right: 76px;
+}
+
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+/* ============================================/HEADER======================================== */
+/* ============================================MAIN======================================== */
+/* HERO SECTION */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  display: flex;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+.hero-btn {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+}
+/* FEATURES */
+.description-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+.features-container {
+  padding: 120px 0px;
+}
+/* WHAT ARE WE DOING */
+.wawd-container {
+  padding-bottom: 120px;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.wawd-list {
+  display: flex;
+  gap: 24px;
+}
+.wawd-item {
+  flex-basis: (100%-84px)/3;
+}
+/* OUR TEAM */
+.our-team {
+  background-color: #f4f4fd;
+}
+.images-team {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.name-teammate {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.place {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.employees-list {
+  display: flex;
+  gap: 24px;
+}
+.employees-card {
+  flex-basis: (100%-96px)/4;
+}
+.employees-card-description {
+  padding: 32px 16px;
+}
+/* ============================================/MAIN======================================== */
+/* ============================================FOOTER======================================== */
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0px;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.logo-second-part-white {
+  color: #f4f4fd;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/* ============================================/FOOTER======================================== */
+/* ---------------------------------------------PORTFOLIO --------------------------------------------- */
+/* BUTTONS */
+.section-portfolio {
+  padding: 96px 0 120px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-body {
+  background-color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.button-body:hover,
+.button-body:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+/* PICTURES */
+.pic-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.pic-link {
+  width: calc((100% - 48px) / 3);
+}
+.pic-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.pic-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.pic-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+/* ---------------------------------------------disposition--------------------------------------------- */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
