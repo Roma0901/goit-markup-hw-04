@@ -131,6 +131,7 @@ img {
     url("../images/hero/people-office\ 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin: 0 auto;
 }
 .title {
