@@ -342,7 +342,7 @@ img {
 }
 .footer-right-side {
   display: flex;
-  width: 208px;
+  flex-direction: column;
 }
 .footer-text {
   font-size: 16px;
@@ -382,7 +382,7 @@ img {
 }
 .link-social-icon:hover,
 .link-social-icon:focus {
-  background-color: var(--accent-color);
+  background-color: #31d0aa;
 }
 /* ============================================/FOOTER======================================== */
 /* ---------------------------------------------PORTFOLIO --------------------------------------------- */
@@ -409,6 +409,8 @@ img {
 }
 .button-body:hover,
 .button-body:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--accent-color);
   color: #ffffff;
   border: 1px solid transparent;
@@ -420,7 +422,8 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-.pic-link {
+.pic-item {
+  display: block;
   width: calc((100% - 48px) / 3);
 }
 .pic-name {
