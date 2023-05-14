@@ -423,7 +423,6 @@ img {
   row-gap: 48px;
 }
 .pic-item {
-  display: block;
   width: calc((100% - 48px) / 3);
 }
 .pic-link {
