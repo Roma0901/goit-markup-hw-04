@@ -316,12 +316,12 @@ img {
 /* ============================================/MAIN======================================== */
 /* ============================================FOOTER======================================== */
 .footer {
-  display: flex;
   background-color: #2e2f42;
   padding: 100px 0px;
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-left-side {
   margin-right: 120px;
